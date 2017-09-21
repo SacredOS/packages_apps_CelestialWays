@@ -70,6 +70,8 @@
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
 
+    <!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
 
     <!-- App info dialog -->
     <string name="celestial_ways_dialog_title">Help us help you!</string>
