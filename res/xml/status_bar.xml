@@ -36,4 +36,10 @@
             android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
 
+         <Preference
+            android:key="misc_ways"
+            android:fragment="org.sacredos.celestialways.MiscWays"
+            android:icon="@drawable/ic_misc_ways"
+            android:title="@string/misc_ways_title" />
+
 </PreferenceScreen>
