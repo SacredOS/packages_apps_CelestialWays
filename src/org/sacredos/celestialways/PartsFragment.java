@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions;
+package org.sacredos.celestialways;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -55,13 +55,13 @@ import com.android.settings.dashboard.SummaryLoader;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.aospextended.extensions.tabs.System;
-import org.aospextended.extensions.PagerSlidingTabStrip;
-import org.aospextended.extensions.tabs.StatusBar;
-import org.aospextended.extensions.tabs.Recents;
-import org.aospextended.extensions.tabs.Lockscreen;
-import org.aospextended.extensions.tabs.NotificationsPanel;
-import org.aospextended.extensions.tabs.Navigation;
+import org.sacredos.celestialways.tabs.System;
+import org.sacredos.celestialways.PagerSlidingTabStrip;
+import org.sacredos.celestialways.tabs.StatusBar;
+import org.sacredos.celestialways.tabs.Recents;
+import org.sacredos.celestialways.tabs.Lockscreen;
+import org.sacredos.celestialways.tabs.NotificationsPanel;
+import org.sacredos.celestialways.tabs.Navigation;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -77,7 +77,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
 
-        View view = inflater.inflate(R.layout.extensions, container, false);
+        View view = inflater.inflate(R.layout.celestial_ways, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mTabs = (PagerSlidingTabStrip) view.findViewById(R.id.tabs);
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
@@ -111,8 +111,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_HELP, 0, R.string.extensions_dialog_title)
-                .setIcon(R.drawable.ic_extensions_info)
+        menu.add(0, MENU_HELP, 0, R.string.celestial_ways_dialog_title)
+                .setIcon(R.drawable.ic_celestial_ways_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
     }
 
@@ -122,7 +122,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
             case MENU_HELP:
                 showDialogInner(MENU_HELP);
                 Toast.makeText(getActivity(),
-                (R.string.extensions_dialog_toast),
+                (R.string.celestial_ways_dialog_toast),
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
@@ -151,8 +151,8 @@ public class PartsFragment extends SettingsPreferenceFragment {
             switch (id) {
                 case MENU_HELP:
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.extensions_dialog_title)
-                    .setMessage(R.string.extensions_dialog_message)
+                    .setTitle(R.string.celestial_ways_dialog_title)
+                    .setMessage(R.string.celestial_ways_dialog_message)
                     .setCancelable(false)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {

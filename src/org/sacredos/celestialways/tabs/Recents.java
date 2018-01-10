@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The Dirty Unicorns Project
+ * Copyright (C) 2016 AospExtended ROM Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions.tabs;
+package org.sacredos.celestialways.tabs;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -29,28 +29,28 @@ import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
-public class StatusBar extends SettingsPreferenceFragment implements
+public class Recents extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    
-    private static final String TAG = "StatusBar";
+
+    private static final String TAG = "Recents";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.status_bar);
+        addPreferencesFromResource(R.xml.recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTENSIONS;
+        return MetricsProto.MetricsEvent.SACRED;
     }
 
     @Override
@@ -67,6 +67,4 @@ public class StatusBar extends SettingsPreferenceFragment implements
         final String key = preference.getKey();
         return true;
     }
-
 }
-

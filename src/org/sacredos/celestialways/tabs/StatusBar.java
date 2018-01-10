@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions.tabs;
+package org.sacredos.celestialways.tabs;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -34,23 +34,23 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.Utils;
 
-public class Lockscreen extends SettingsPreferenceFragment implements
+public class StatusBar extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     
-    private static final String TAG = "Lockscreen";
+    private static final String TAG = "StatusBar";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.lockscreen);
+        addPreferencesFromResource(R.xml.status_bar);
 
         ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.EXTENSIONS;
+        return MetricsProto.MetricsEvent.SACRED;
     }
 
     @Override
@@ -69,3 +69,4 @@ public class Lockscreen extends SettingsPreferenceFragment implements
     }
 
 }
+

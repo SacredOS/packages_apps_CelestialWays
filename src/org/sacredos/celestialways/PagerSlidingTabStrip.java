@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions;
+package org.sacredos.celestialways;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
