@@ -30,6 +30,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_ui_clock_font_category"
+        android:title="@string/lock_clock_font_category">
+
+    <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        android:key="lock_clock_font"
+        android:title="@string/lock_clock_font_title"
+        android:summary="@string/lock_clock_font_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_ui_gestures_category"
         android:title="@string/gestures_category">
 

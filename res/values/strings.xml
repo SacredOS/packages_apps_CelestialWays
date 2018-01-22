@@ -578,4 +578,9 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
+    <!-- Lock Clock Font -->
+    <string name="lock_clock_font_category">Lockscreen clock font</string>
+    <string name="lock_clock_font_title">SacredOS custom clock font</string>
+    <string name="lock_clock_font_summary">Enable SacredOS mysterious lockscreen clock widget font...</string>
+
 </resources>
