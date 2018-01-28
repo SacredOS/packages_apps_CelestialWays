@@ -60,6 +60,9 @@
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
 
+    <!-- Carrier Label -->
+    <string name="carrierlabel_title">Carrier Label</string>
+
     <!-- Misc Extensions -->
     <string name="misc_ways_title">Misc ways</string>
 
@@ -639,4 +642,15 @@
     <string name="less_notification_sounds_30s">Every 30 seconds</string>
     <string name="less_notification_sounds_1m">Every minute</string>
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">Select display locations</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen</string>
+    <string name="show_carrier_statusbar">Status bar</string>
+    <string name="show_carrier_enabled">Both</string>
 </resources>
