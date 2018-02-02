@@ -280,6 +280,10 @@
     <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
     <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of the QS panel while your network is monitored by external apps or a VPN</string>
+
     <!-- Heads up -->
     <string name="headsup_category">HeadsUp Settings</string>
     <string name="heads_up_notifications">Heads up</string>
