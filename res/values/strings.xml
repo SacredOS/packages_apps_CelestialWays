@@ -609,7 +609,7 @@
     <!-- Header -->
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Choose an image to be displayed at the top of the notification panel</string>
-    <string name="qs_appearance_category">APPEARANCE</string>
+    <string name="qs_appearance_category">Appearance</string>
     <string name="daylight_header_pack_title">Header image pack</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
