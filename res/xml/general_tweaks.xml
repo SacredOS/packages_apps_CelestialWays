@@ -68,6 +68,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="screenshot_options"
+        android:title="@string/screenshot_options_category" >
+
+    <Preference
+        android:key="screenshot_edit_app"
+        android:title="@string/screenshot_edit_app"
+        android:summary="@string/screenshot_edit_app_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="light_category"
         android:title="@string/light_category">
 
