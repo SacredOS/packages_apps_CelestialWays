@@ -44,14 +44,20 @@
     <string name="color_title">Color</string>
     <string name="colors_title">Colors</string>
 
-    <!-- Extensions categories -->
+    <!-- CelestialWays categories -->
     <string name="recents_category">Recents</string>
+    <string name="recents_category_summary">Transcend the recents panel</string>
     <string name="status_bar_category">Statusbar</string>
+    <string name="status_bar_category_summary">Transcend the look of statusbar</string>
     <string name="notifications_panel_category">Notifications panel</string>
+    <string name="notifications_panel_category_summary">Transcending options for notifications/QuickSettings panel</string>
     <string name="system_category">System</string>
+    <string name="system_category_summary">Transcendence ways for the system</string>
     <string name="lockscreen_category">Lockscreen</string>
+    <string name="lockscreen_category_summary">Bless your lockscreen with the celestial ways</string>
     <string name="navigation_category">Navigation</string>
-    <string name="build_tweaks_summary_title">Transcend your device!</string>
+    <string name="navigation_category_summary">Choose your way for setting the navbar</string>
+    <string name="build_tweaks_summary_title">Transcend your settings options</string>
 
     <!-- Frags -->
     <!-- General Tweaks -->

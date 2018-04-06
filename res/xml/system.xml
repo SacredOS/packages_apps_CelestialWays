@@ -18,7 +18,6 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/system_category"
-    android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
          <Preference
@@ -36,7 +35,7 @@
          <Preference
             android:key="app_ops"
             android:fragment="com.android.settings.applications.AppOpsSummary"
-            android:icon="@drawable/ic_settings_appops"
+            android:icon="@drawable/ic_appops"
             android:title="@string/app_ops_category" />
 
 </PreferenceScreen>
