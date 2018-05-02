@@ -44,6 +44,13 @@
             android:entries="@array/ringtone_focus_mode_entries"
             android:entryValues="@array/ringtone_focus_mode_values" />
 
+        <Preference
+            android:key="chooser_activity_blacklist"
+            android:fragment="org.sacredos.celestialways.ChooserActivityBlacklist"
+            android:title="@string/chooser_activity_blacklist_title"
+            android:summary="@string/chooser_activity_blacklist_summary"
+            android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
