@@ -16,24 +16,24 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quick_settings_title">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="quick_settings_general_category"
         android:title="@string/general_category">
 
-        <org.sacredos.celestialways.preference.SecureSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/qs_brightness_slider_title"
         android:summary="@string/qs_brightness_slider_summary"
         android:defaultValue="true"/>
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
         android:key="qs_show_brightness_icon"
         android:title="@string/brightness_icon_title"
         android:summary="@string/brightness_icon_summary"
         android:dependency="qs_show_brightness"
         android:defaultValue="false"/>
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="qs_tile_title_visibility"
             android:title="@string/qs_tile_title_visibility_title"
             android:defaultValue="true" />
@@ -52,46 +52,46 @@
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="qs_footer_warnings"
             android:title="@string/qs_footer_warnings_title"
             android:summary="@string/qs_footer_warnings_summary"
             android:defaultValue="true" />
 
-        <org.sacredos.celestialways.preference.SecureSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SecureSettingSwitchPreference
             android:key="lockscreen_qs_disabled"
             android:title="@string/lockscreen_qs_disabled_title"
             android:summary="@string/lockscreen_qs_disabled_summary"
             android:defaultValue="false" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
-     <PreferenceCategory
+    <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category">
 
-    <org.sacredos.celestialways.preference.CustomSeekBarPreference
+    <com.sacredos.celestialways.preference.CustomSeekBarPreference
         android:key="qs_rows_portrait"
         android:title="@string/qs_rows_portrait_title"
         android:max="5"
         settings:min="1"
         settings:units="" />
 
-    <org.sacredos.celestialways.preference.CustomSeekBarPreference
+    <com.sacredos.celestialways.preference.CustomSeekBarPreference
         android:key="qs_rows_landscape"
         android:title="@string/qs_rows_landscape_title"
         android:max="3"
         settings:min="1"
         settings:units="" />
 
-    <org.sacredos.celestialways.preference.CustomSeekBarPreference
+    <com.sacredos.celestialways.preference.CustomSeekBarPreference
         android:key="qs_columns_portrait"
         android:title="@string/qs_columns_portrait_title"
         android:max="7"
         settings:min="1"
         settings:units="" />
 
-    <org.sacredos.celestialways.preference.CustomSeekBarPreference
+    <com.sacredos.celestialways.preference.CustomSeekBarPreference
         android:key="qs_columns_landscape"
         android:title="@string/qs_columns_landscape_title"
         android:max="9"
@@ -100,11 +100,11 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="category_custom_header"
         android:title="@string/qs_appearance_category">
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="status_bar_custom_header"
             android:title="@string/status_bar_custom_header_title"
             android:summary="@string/status_bar_custom_header_summary"
@@ -143,7 +143,7 @@
             android:dependency="status_bar_custom_header" >
         </Preference>
 
-		<org.sacredos.celestialways.preference.CustomSeekBarPreference
+		<com.sacredos.celestialways.preference.CustomSeekBarPreference
             android:key="status_bar_custom_header_shadow"
             android:title="@string/status_bar_custom_header_shadow_title"
             android:summary="@string/status_bar_custom_header_shadow_summary"
@@ -153,6 +153,6 @@
             android:persistent="false"
             android:dependency="status_bar_custom_header" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
 </PreferenceScreen>

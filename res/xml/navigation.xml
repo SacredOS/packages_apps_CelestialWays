@@ -22,7 +22,7 @@
 
          <Preference
             android:key="navbar_settings"
-            android:fragment="org.sacredos.celestialways.NavbarSettings"
+            android:fragment="com.sacredos.celestialways.NavbarSettings"
             android:icon="@drawable/ic_navigation"
             android:title="@string/navigationbar_settings_title" />
 

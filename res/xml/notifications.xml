@@ -16,9 +16,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="notifications_general_category"
-        android:title="@string/general_category">
+        android:title="@string/general_category">-->
 
 <!--    <Preference
             android:key="systemui_tuner_pnc"
@@ -29,7 +29,7 @@
                 android:targetClass="com.android.systemui.tuner.PowerActivity" />
     </Preference> -->
 
-    <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+    <!--<com.sacredos.celestialways.preference.SystemSettingSwitchPreference
         android:key="force_expanded_notifications"
         android:title="@string/force_expanded_notifications_title"
         android:summary="@string/force_expanded_notifications_summary"
@@ -49,13 +49,13 @@
             android:entries="@array/less_notification_sounds_entries"
             android:entryValues="@array/less_notification_sounds_values" />
 
-     <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+     <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
         android:key="notification_guts_kill_app_button"
         android:title="@string/notification_guts_kill_app_button_title"
         android:summary="@string/notification_guts_kill_app_button_summary"
         android:defaultValue="false" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
     <PreferenceCategory
         android:key="headsup_notifications_category"
@@ -64,11 +64,11 @@
      <Preference
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
-        android:fragment="org.sacredos.celestialways.HeadsUpSettings"/>
+        android:fragment="com.sacredos.celestialways.HeadsUpSettings"/>
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="ticker_notifications_category"
         android:title="@string/ticker_screen_title">
 
@@ -86,6 +86,6 @@
             android:entryValues="@array/ticker_animation_mode_values"
             android:defaultValue="1" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
 </PreferenceScreen>

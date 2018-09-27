@@ -16,17 +16,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/general_tweaks_title">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
         android:key="general_tweaks_general_category"
         android:title="@string/general_category">
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
             android:summary="@string/toast_icon_summary"
             android:defaultValue="false" />
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="disable_fc_notifications"
             android:title="@string/disable_fc_notifications_title"
             android:summary="@string/disable_fc_notifications_summary"
@@ -46,7 +46,7 @@
 
         <Preference
             android:key="chooser_activity_blacklist"
-            android:fragment="org.sacredos.celestialways.ChooserActivityBlacklist"
+            android:fragment="com.sacredos.celestialways.ChooserActivityBlacklist"
             android:title="@string/chooser_activity_blacklist_title"
             android:summary="@string/chooser_activity_blacklist_summary"
             android:persistent="false" />
@@ -57,17 +57,17 @@
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
             android:defaultValue="false" />
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
             android:defaultValue="false" />
 
-        <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+        <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
@@ -83,7 +83,7 @@
         android:title="@string/screenshot_edit_app"
         android:summary="@string/screenshot_edit_app_summary" />
 
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
     <PreferenceCategory
         android:key="light_category"
@@ -91,7 +91,7 @@
 
      <Preference
          android:key="battery_charging_light"
-         android:fragment="org.sacredos.celestialways.BatteryLightSettings"
+         android:fragment="com.sacredos.celestialways.BatteryLightSettings"
          android:title="@string/battery_light_settings" />
 
 

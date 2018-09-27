@@ -16,7 +16,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <org.sacredos.celestialways.preference.SystemSettingSwitchPreference
+    <com.sacredos.celestialways.preference.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
         android:defaultValue="true" />
@@ -29,7 +29,7 @@
         android:dependency="network_traffic_state"
         android:persistent="false" />
 
-    <org.sacredos.celestialways.preference.CustomSeekBarPreference
+    <com.sacredos.celestialways.preference.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold_title"
         android:max="10"

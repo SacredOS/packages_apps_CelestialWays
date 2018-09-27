@@ -21,6 +21,7 @@
     
     <!-- General app strings -->
     <string name="celestial_ways_title">Celestial Ways</string>
+    <string name="celestial_ways_summary">Transcend your settings options</string>
     <string name="add">Add</string>
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
@@ -57,7 +58,6 @@
     <string name="lockscreen_category_summary">Bless your lockscreen with the celestial ways</string>
     <string name="navigation_category">Navigation</string>
     <string name="navigation_category_summary">Choose your way for setting the navbar</string>
-    <string name="build_tweaks_summary_title">Transcend your settings options</string>
 
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -234,28 +234,9 @@
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
     <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
 
-    <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
-
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
-
-    <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-
-    <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
-
-    <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
-    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 
     <!-- QS rows and columns -->
     <string name="qs_layout_category">QS tiles layout</string>
@@ -380,7 +361,7 @@
     <string name="navbar_size">Bar size</string>
     <string name="navbar_mode">Navigation mode</string>
     <string name="navbar_mode_summary">Select which navigation mode to use on your device</string>
-    <string name="navbar_visibility">Allow navigation bar</string>
+    <string name="navbar_show_title">Allow navigation bar</string>
     <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
     <string name="navbar_general_title">Advanced</string>
     <string name="navigation_bar_left_title">Left-handed mode</string>

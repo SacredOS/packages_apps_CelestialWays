@@ -22,7 +22,7 @@
             android:key="statusbar_category"
             android:title="@string/status_bar_category"
             android:summary="@string/status_bar_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.StatusBar" 
+            android:fragment="com.sacredos.celestialways.tabs.StatusBar" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Notifications -->
@@ -30,7 +30,7 @@
             android:key="notifications_category"
             android:title="@string/notifications_panel_category"
             android:summary="@string/notifications_panel_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.NotificationsPanel"
+            android:fragment="com.sacredos.celestialways.tabs.NotificationsPanel"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Navigation Bar -->
@@ -38,7 +38,7 @@
             android:key="navigation_category"
             android:title="@string/navigation_category"
             android:summary="@string/navigation_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.Navigation"
+            android:fragment="com.sacredos.celestialways.tabs.Navigation"
             android:icon="@drawable/ic_settings_navigation"/>
 
         <!-- Recents -->
@@ -46,7 +46,7 @@
             android:key="recents_category"
             android:title="@string/recents_category"
             android:summary="@string/recents_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.Recents"
+            android:fragment="com.sacredos.celestialways.Recents"
             android:icon="@drawable/ic_settings_recents"/>
 
         <!-- Lock Screen -->
@@ -54,7 +54,7 @@
             android:key="lockscreen_category"
             android:title="@string/lockscreen_category"
             android:summary="@string/lockscreen_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.Lockscreen"
+            android:fragment="com.sacredos.celestialways.Lockscreen"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- System -->
@@ -62,7 +62,7 @@
             android:key="system_category"
             android:title="@string/system_category"
             android:summary="@string/system_category_summary"
-            android:fragment="org.sacredos.celestialways.tabs.System"
+            android:fragment="com.sacredos.celestialways.tabs.System"
             android:icon="@drawable/ic_settings_system"/>
 
 </PreferenceScreen>

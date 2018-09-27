@@ -19,13 +19,13 @@
 
          <Preference
             android:key="quick_settings"
-            android:fragment="org.sacredos.celestialways.QuickSettings"
+            android:fragment="com.sacredos.celestialways.QuickSettings"
             android:icon="@drawable/ic_quick_settings"
             android:title="@string/quick_settings_title" />
 
          <Preference
             android:key="notifications"
-            android:fragment="org.sacredos.celestialways.Notifications"
+            android:fragment="com.sacredos.celestialways.Notifications"
             android:icon="@drawable/ic_notifications"
             android:title="@string/notifications_title" />
 
